@@ -1,0 +1,16 @@
+﻿Build started 9/20/2018 2:44:09 PM.
+     1>Project "F:\Classes\3d Gamedev\3d Project\SHIT Engine\SHIT Engine\SHIT Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include\shaderc" /I"F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\include" /I"F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\include" /I"F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\include" /I"F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\include" /I"F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include\vulkan" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\DJ GIT\gf3d\src\gf3d_shaders.c" "..\..\..\DJ GIT\gf3d\src\simple_logger.c"
+         gf3d_shaders.c
+     1>..\..\..\DJ GIT\gf3d\src\gf3d_shaders.c(29): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         simple_logger.c
+     1>..\..\..\DJ GIT\gf3d\src\simple_logger.c(22): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\..\DJ GIT\gf3d\src\simple_logger.c(28): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>Done Building Project "F:\Classes\3d Gamedev\3d Project\SHIT Engine\SHIT Engine\SHIT Engine.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.28
