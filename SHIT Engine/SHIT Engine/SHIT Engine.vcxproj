@@ -10,8 +10,54 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\game.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_camera.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_commands.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_extensions.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_matrix.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_mesh.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_model.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_obj_load.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_pipeline.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_shaders.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_swapchain.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_texture.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_types.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_validation.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_vector.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_vgraphics.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_vqueues.c" />
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\simple_logger.c" />
+    <ClCompile Include="gf3df_list.c" />
+    <ClCompile Include="gf3dN_audio.c" />
+    <ClCompile Include="gf3dN_entity.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_camera.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_commands.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_extensions.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_matrix.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_mesh.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_model.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_obj_load.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_pipeline.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_shaders.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_swapchain.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_text.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_texture.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_types.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_validation.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_vector.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_vgraphics.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_vqueues.h" />
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\simple_logger.h" />
+    <ClInclude Include="gf3dN_audio.h" />
+    <ClInclude Include="gf3dN_entity.h" />
+    <ClInclude Include="gf3dN_list.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DB036F6A-3597-4DA9-9ED4-A52F0B6678B1}</ProjectGuid>
+    <ProjectGuid>{4D8F8E8F-9EC4-41B8-9A8F-E88B7051E0AA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SHITEngine</RootNamespace>
   </PropertyGroup>
@@ -41,13 +87,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include;F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\include;F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\include;F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\include;F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\include;F:\Classes\3d Gamedev\DJ GIT\gf3d\include;F:\Classes\3d Gamedev\3d Project\SHIT Engine\include;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Lib32;F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\nizzy\Documents\3D Gamedev\SHIT Engine\SHIT Engine;C:\VulkanSDK\1.1.82.1\Include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\include;C:\Users\nizzy\Documents\3D Gamedev\DJ GIT\gf3d\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\nizzy\Documents\3D Gamedev\DJ GIT\gf3d\src;C:\VulkanSDK\1.1.82.1\Lib32;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include;F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\include;F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\include;F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\include;F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\include;F:\Classes\3d Gamedev\DJ GIT\gf3d\include;F:\Classes\3d Gamedev\3d Project\SHIT Engine\include;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Lib32;F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\nizzy\Documents\3D Gamedev\SHIT Engine\SHIT Engine;C:\VulkanSDK\1.1.82.1\Include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\include;C:\Users\nizzy\Documents\3D Gamedev\DJ GIT\gf3d\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\nizzy\Documents\3D Gamedev\DJ GIT\gf3d\src;C:\VulkanSDK\1.1.82.1\Lib32;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -55,14 +101,13 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include\shaderc;F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\include;F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\include;F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\include;F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\include;F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\include;C:\VulkanSDK\1.1.82.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Lib32;F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\lib\x86;C:\VulkanSDK\1.1.82.1\Lib32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -74,64 +119,18 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include\shaderc;F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\include;F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\include;F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\include;F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\include;F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include\vulkan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\include;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\include;C:\VulkanSDK\1.1.82.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>vulkan-1.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Lib32;F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\lib\x86;F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\lib\x86;C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\lib\x86;C:\VulkanSDK\1.1.82.1\Lib32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\game.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_camera.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_commands.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_extensions.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_matrix.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_model.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_pipeline.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_shaders.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_swapchain.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_types.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_validation.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_vector.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_vgraphics.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_vqueues.c" />
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\simple_logger.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_camera.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_commands.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_extensions.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_matrix.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_mesh.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_model.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_obj_load.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_pipeline.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_shaders.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_swapchain.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_text.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_texture.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_types.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_validation.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_vector.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_vgraphics.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_vqueues.h" />
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\simple_logger.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\basic.frag" />
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\basic.vert" />
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\default.frag" />
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\default.vert" />
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\frag.spv" />
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\vert.spv" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

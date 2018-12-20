@@ -1,0 +1,142 @@
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\game.c:23: gf3d begin
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:68: Total available instance extensions: 12
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_KHR_device_group_creation
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_KHR_external_fence_capabilities
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_KHR_external_memory_capabilities
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_KHR_external_semaphore_capabilities
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_KHR_get_physical_device_properties2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_KHR_get_surface_capabilities2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_KHR_surface
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_KHR_win32_surface
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_EXT_debug_report
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_EXT_swapchain_colorspace
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_NV_external_memory_capabilities
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:81: available instance extension: VK_EXT_debug_utils
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vgraphics.c:224: SDL Vulkan extensions support: VK_KHR_surface
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vgraphics.c:224: SDL Vulkan extensions support: VK_KHR_win32_surface
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vgraphics.c:295: vulkan discovered 1 device(s) with this instance
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vgraphics.c:534: Device Name: GeForce GTX 1080
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vgraphics.c:535: Dedicated GPU: 1
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vgraphics.c:536: apiVersion: 4198484
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vgraphics.c:537: driverVersion: 1745387520
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vgraphics.c:538: supports Geometry Shader: 1
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:64: discoverd 3 queue family properties
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:67: Queue family 0:
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:68: queue flag bits 15
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:69: queue count 16
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:70: queue timestamp valid bits 64
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:74: queue min image transfer granularity 1w 1h 1d
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:84: Queue handles graphics calls
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:90: Queue handles transfer calls
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:96: Queue handles present calls
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:67: Queue family 1:
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:68: queue flag bits 4
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:69: queue count 1
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:70: queue timestamp valid bits 64
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:74: queue min image transfer granularity 1w 1h 1d
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:90: Queue handles transfer calls
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:67: Queue family 2:
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:68: queue flag bits 2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:69: queue count 8
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:70: queue timestamp valid bits 64
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:74: queue min image transfer granularity 1w 1h 1d
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:96: Queue handles present calls
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:99: using queue family 0 for graphics commands
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:100: using queue family 2 for rendering pipeline
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_vqueues.c:101: using queue family 1 for transfer pipeline
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:30: Total available device extensions: 63
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_8bit_storage
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_16bit_storage
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_bind_memory2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_create_renderpass2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_dedicated_allocation
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_descriptor_update_template
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_device_group
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_draw_indirect_count
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_driver_properties
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_external_fence
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_external_fence_win32
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_external_memory
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_external_memory_win32
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_external_semaphore
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_external_semaphore_win32
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_get_memory_requirements2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_image_format_list
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_maintenance1
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_maintenance2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_maintenance3
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_multiview
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_push_descriptor
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_relaxed_block_layout
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_sampler_mirror_clamp_to_edge
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_sampler_ycbcr_conversion
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_shader_atomic_int64
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_shader_draw_parameters
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_storage_buffer_storage_class
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_swapchain
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_variable_pointers
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_vulkan_memory_model
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_KHR_win32_keyed_mutex
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_blend_operation_advanced
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_conditional_rendering
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_conservative_rasterization
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_depth_range_unrestricted
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_descriptor_indexing
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_discard_rectangles
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_hdr_metadata
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_inline_uniform_block
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_post_depth_coverage
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_sample_locations
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_sampler_filter_minmax
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_shader_subgroup_ballot
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_shader_subgroup_vote
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_shader_viewport_index_layer
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_EXT_vertex_attribute_divisor
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_clip_space_w_scaling
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_dedicated_allocation
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_device_diagnostic_checkpoints
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_external_memory
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_external_memory_win32
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_fill_rectangle
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_fragment_coverage_to_color
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_framebuffer_mixed_samples
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_geometry_shader_passthrough
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_sample_mask_override_coverage
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_shader_subgroup_partitioned
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_viewport_array2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_viewport_swizzle
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NV_win32_keyed_mutex
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NVX_device_generated_commands
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_extensions.c:44: available device extension: VK_NVX_multiview_per_view_attributes
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:51: device supports 2 surface formats
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:58: surface format 0:
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:59: format: 44
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:60: colorspace: 0
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:58: surface format 1:
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:59: format: 50
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:60: colorspace: 0
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:66: device supports 3 presentation modes
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:73: presentation mode: 0 is 2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:73: presentation mode: 1 is 3
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:73: presentation mode: 2 is 1
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:78: chosing surface format 0
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:81: chosing presentation mode 1
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:213: Requested resolution: (1200,700)
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:214: Minimum resolution: (1200,700)
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:215: Maximum resolution: (1200,700)
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:84: chosing swap chain extent of (1200,700)
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:143: minimum images needed for swap chain: 2
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:144: Maximum images needed for swap chain: 8
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:147: using 3 images for the swap chain
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:189: created a swap chain with length 3
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:200: created swap chain with 3 images
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:207: create image views
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_mesh.c:58: mesh system initialized
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_texture.c:24: initializing texture system
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_texture.c:39: texture system initialized
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_model.c:56: model manager initiliazed
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_pipeline.c:35: pipeline system initialized
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_commands.c:45: command pool system init
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_commands.c:132: created command buffer pool
+c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\gf3d_swapchain.c:114: created framebuffer
+c

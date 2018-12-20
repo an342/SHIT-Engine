@@ -13,131 +13,135 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="shaders">
-      <UniqueIdentifier>{e2d13c7d-5655-4054-8864-cdbe8608d3ae}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\game.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\game.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_camera.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_camera.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_commands.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_commands.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_extensions.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_extensions.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_matrix.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_matrix.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_model.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_mesh.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_pipeline.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_model.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_shaders.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_obj_load.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_swapchain.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_pipeline.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_types.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_shaders.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_validation.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_swapchain.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_vector.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_texture.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_vgraphics.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_types.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\gf3d_vqueues.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_validation.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\DJ GIT\gf3d\src\simple_logger.c">
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_vgraphics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\gf3d_vqueues.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DJ GIT\gf3d\src\simple_logger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gf3dN_entity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gf3dN_audio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gf3df_list.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_camera.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_commands.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_commands.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_extensions.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_extensions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_matrix.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_model.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_pipeline.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_shaders.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_obj_load.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_swapchain.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_pipeline.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_text.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_shaders.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_types.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_swapchain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_validation.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_text.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_vector.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_vgraphics.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_vqueues.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_validation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\simple_logger.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_obj_load.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_vgraphics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_texture.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\gf3d_vqueues.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\DJ GIT\gf3d\include\gf3d_mesh.h">
+    <ClInclude Include="..\..\DJ GIT\gf3d\include\simple_logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\basic.frag">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\basic.vert">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\default.frag">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\default.vert">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\frag.spv">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="..\..\..\DJ GIT\gf3d\shaders\vert.spv">
-      <Filter>shaders</Filter>
-    </None>
+    <ClInclude Include="gf3dN_entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gf3dN_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gf3dN_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

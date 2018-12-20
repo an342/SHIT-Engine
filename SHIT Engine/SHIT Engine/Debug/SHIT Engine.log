@@ -1,40 +1,38 @@
-﻿Build started 11/2/2018 2:05:21 PM.
-     1>Project "F:\Classes\3d Gamedev\my Git\SHIT-Engine\SHIT Engine\SHIT Engine\SHIT Engine.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/20/2018 12:57:29 PM.
+     1>Project "C:\Users\nizzy\Documents\3D Gamedev\SHIT Engine\SHIT Engine\SHIT Engine.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include\shaderc" /I"F:\Classes\3d Gamedev\include\libraries\SDL2_image-2.0.3\include" /I"F:\Classes\3d Gamedev\include\libraries\SDL2_mixer-2.0.2\include" /I"F:\Classes\3d Gamedev\include\libraries\SDL2_ttf-2.0.14\include" /I"F:\Classes\3d Gamedev\include\libraries\SDL2-2.0.8\include" /I"F:\Classes\3d Gamedev\include\libraries\Vulkan\1.1.82.1\Include\vulkan" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\..\DJ GIT\gf3d\src\game.c" "..\..\..\DJ GIT\gf3d\src\gf3d_camera.c" "..\..\..\DJ GIT\gf3d\src\gf3d_commands.c" "..\..\..\DJ GIT\gf3d\src\gf3d_extensions.c" "..\..\..\DJ GIT\gf3d\src\gf3d_matrix.c" "..\..\..\DJ GIT\gf3d\src\gf3d_model.c" "..\..\..\DJ GIT\gf3d\src\gf3d_pipeline.c" "..\..\..\DJ GIT\gf3d\src\gf3d_shaders.c" "..\..\..\DJ GIT\gf3d\src\gf3d_swapchain.c" "..\..\..\DJ GIT\gf3d\src\gf3d_types.c" "..\..\..\DJ GIT\gf3d\src\gf3d_validation.c" "..\..\..\DJ GIT\gf3d\src\gf3d_vector.c" "..\..\..\DJ GIT\gf3d\src\gf3d_vgraphics.c" "..\..\..\DJ GIT\gf3d\src\gf3d_vqueues.c" "..\..\..\DJ GIT\gf3d\src\simple_logger.c"
-         simple_logger.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\simple_logger.c': No such file or directory
-         gf3d_vqueues.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_vqueues.c': No such file or directory
-         gf3d_vgraphics.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_vgraphics.c': No such file or directory
-         gf3d_vector.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_vector.c': No such file or directory
-         gf3d_validation.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_validation.c': No such file or directory
-         gf3d_types.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_types.c': No such file or directory
-         gf3d_swapchain.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_swapchain.c': No such file or directory
-         gf3d_shaders.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_shaders.c': No such file or directory
-         gf3d_pipeline.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_pipeline.c': No such file or directory
-         gf3d_model.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_model.c': No such file or directory
-         gf3d_matrix.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_matrix.c': No such file or directory
-         gf3d_extensions.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_extensions.c': No such file or directory
-         gf3d_commands.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_commands.c': No such file or directory
-         gf3d_camera.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\gf3d_camera.c': No such file or directory
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\include" /I"C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\include" /I"C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\include" /I"C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\include" /IC:\VulkanSDK\1.1.82.1\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\DJ GIT\gf3d\src\game.c"
          game.c
-     1>c1 : fatal error C1083: Cannot open source file: '..\..\..\DJ GIT\gf3d\src\game.c': No such file or directory
-         Generating Code...
-     1>Done Building Project "F:\Classes\3d Gamedev\my Git\SHIT-Engine\SHIT Engine\SHIT Engine\SHIT Engine.vcxproj" (Build target(s)) -- FAILED.
+     1>c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\game.c(41): warning C4244: 'function' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\game.c(42): warning C4244: 'function' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\game.c(74): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\game.c(78): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>c:\users\nizzy\documents\3d gamedev\dj git\gf3d\src\game.c(19): warning C4101: 'mouse' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nizzy\Documents\3D Gamedev\SHIT Engine\Debug\SHIT Engine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2-2.0.8\lib\x86" /LIBPATH:"C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_ttf-2.0.14\lib\x86" /LIBPATH:"C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_mixer-2.0.2\lib\x86" /LIBPATH:"C:\Users\nizzy\Documents\3D Gamedev\Include\SDL2_image-2.0.3\lib\x86" /LIBPATH:C:\VulkanSDK\1.1.82.1\Lib32 "vulkan-1.lib" SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\nizzy\Documents\3D Gamedev\SHIT Engine\Debug\SHIT Engine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\nizzy\Documents\3D Gamedev\SHIT Engine\Debug\SHIT Engine.lib" /MACHINE:X86 Debug\game.obj
+         Debug\gf3d_camera.obj
+         Debug\gf3d_commands.obj
+         Debug\gf3d_extensions.obj
+         Debug\gf3d_matrix.obj
+         Debug\gf3d_mesh.obj
+         Debug\gf3d_model.obj
+         Debug\gf3d_obj_load.obj
+         Debug\gf3d_pipeline.obj
+         Debug\gf3d_shaders.obj
+         Debug\gf3d_swapchain.obj
+         Debug\gf3d_texture.obj
+         Debug\gf3d_types.obj
+         Debug\gf3d_validation.obj
+         Debug\gf3d_vector.obj
+         Debug\gf3d_vgraphics.obj
+         Debug\gf3d_vqueues.obj
+         Debug\simple_logger.obj
+         Debug\gf3df_list.obj
+         Debug\gf3dN_audio.obj
+         Debug\gf3dN_entity.obj
+         SHIT Engine.vcxproj -> C:\Users\nizzy\Documents\3D Gamedev\SHIT Engine\Debug\SHIT Engine.exe
+     1>Done Building Project "C:\Users\nizzy\Documents\3D Gamedev\SHIT Engine\SHIT Engine\SHIT Engine.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.36
+Time Elapsed 00:00:00.87
